@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>dynamic_pagination</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/dynamicPost.css">
+    <link rel="stylesheet" href="assets/css/poststyle.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="background: var(--bs-gray-700);">
+    <div class="overflow-scroll mh-100">
+        <div class="w-100 card-body" style="height: 21rem;"><input type="file" id="fileselector" class="d-none" multiple="" accept="image/*">
+            <div class="btn-group w-25" role="group"><button class="btn btn-primary w-75" id="opener" type="button">Upload</button><button class="btn btn-dark disabled w-25" type="button" disabled=""><i class="fas fa-upload"></i></button></div>
+            <div id="previewSpace" class="overflow-scroll mt-4" style="width: 87%;height: 180px;"><label class="form-label mediaPost d-none" for="image1"><input type="radio" id="image1" class="selector" name="selector"><img class="rounded img-fluid" src="1e62c80e14667075503b1e8e6f7fc3a4.jpg" style="width: 60px;height: 60px;"></label></div>
+        </div>
+        <div class="post-list-parent">
+            <div class="shadow collector">
+                <div class="paginator"></div>
+                <header>
+                    <div class="d-flex align-items-center py-1 text-muted px-1 rounded" style="background: rgba(33,29,29,0.64);"><img class="img-fluid" src="assets/img/pexels-pixabay-415829.jpg" style="height: 2rem;border-radius: 50%;width: 2rem;"><span class="fw-bold mx-2">Meridith Malon</span></div>
+                    <hr>
+                    <h6 style="color: var(--bs-red);margin: 0px;">Browse Commerce Job</h6>
+                    <h3><strong>Open Source Developer Backender</strong></h3>
+                </header>
+                <div class="flex-row justify-content-between navigation"><i class="fas fa-chevron-left py-5 px-4 navLeft" role="button" style="opacity: 0.11;"></i><i class="fas fa-chevron-right py-5 px-4 navRight" role="button" style="opacity: 0.11;"></i></div>
+                <div style="color: aliceblue;" class="post-item-text">
+                    <p class="post-image-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus felis et libero scelerisque, sed aliquet nulla tincidunt. Quisque lorem nisl, semper vitae mattis nec, vestibulum nec risus. Sed ut volutpat tortor, ut sodales diam. Integer at tristique turpis. Integer orci leo, fringilla ac aliquet vitae, condimentum non loLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus felis et libero scelerisque, sed aliquet nulla tincidunt. Quisque lorem nisl, semper vitae mattis nec, vestibulum nec risus. Sed ut volutpat tortor, ut sodales diam. Integer at tristique turpis. Integer orci leo, fringilla ac aliquet vitae, condimentum non lo</p>
+                    <div class="d-flex flex-row justify-content-between">
+                        <div class="btn-group" role="group" style="border-style: none;"><button class="btn btn-primary" type="button" style="background: var(--bs-red);border-style: none;"><strong>EXPRESS INTEREST</strong></button><button class="btn btn-primary" type="button" style="background: transparent;border-style: solid;border-color: var(--bs-gray-800);"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.2929 3.29289C10.6834 2.90237 11.3166 2.90237 11.7071 3.29289L17.7071 9.29289C18.0976 9.68342 18.0976 10.3166 17.7071 10.7071L11.7071 16.7071C11.3166 17.0976 10.6834 17.0976 10.2929 16.7071C9.90237 16.3166 9.90237 15.6834 10.2929 15.2929L14.5858 11L3 11C2.44772 11 2 10.5523 2 10C2 9.44772 2.44772 9 3 9H14.5858L10.2929 4.70711C9.90237 4.31658 9.90237 3.68342 10.2929 3.29289Z" fill="currentColor"></path>
+                                </svg></button></div>
+                        <div class="rounded w-25 rounded d-flex align-items-center justify-content-evenly" style="background: rgba(33,29,29,0.64);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-90 0 512 512" width="1em" height="1em" fill="currentColor" class="fs-5">
+                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                <path d="M332.5 419.9c0 46.4-37.6 84.1-84 84.1s-84-37.7-84-84.1 37.6-84 84-84 84 37.6 84 84zm-84-243.9c46.4 0 80-37.6 80-84s-33.6-84-80-84-88 37.6-88 84-29.6 76-76 76-84 41.6-84 88 37.6 80 84 80 84-33.6 84-80 33.6-80 80-80z"></path>
+                            </svg><span class="mx-1"><strong>+33k</strong></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/dynamicpost/dynamic.js"></script>
+</body>
+
+</html>
